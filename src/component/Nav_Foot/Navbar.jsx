@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -57,32 +57,30 @@ function Navbar() {
                     >
                       Our Projects
                     </a>
-                    <a
+                    {/* <a
                       href="our_profesionals"
                       className="dropdown-link w-dropdown-link"
                     >
                       Professionals
                     </a>
-                    <Link
-                      to="services-single.html"
+                    <a
+                      href="single_service"
                       className="dropdown-link w-dropdown-link"
                     >
                       Services Single
-                    </Link>
-                    <Link
+                    </a> */}
+                    {/* <Link
                       to="pricing-plan.html"
                       className="dropdown-link w-dropdown-link"
                     >
                       Pricing Plan
-                    </Link>
-                    <Link
-                      to="blog.html"
-                      className="dropdown-link w-dropdown-link"
-                    >
+                    </Link> */}
+                    <a href="blog"
+                     className="dropdown-link w-dropdown-link">
                       Blog
-                    </Link>
+                    </a>
                     <Link
-                      to="faq.html"
+                      to="faq_page"
                       className="dropdown-link w-dropdown-link"
                     >
                       FAQ
@@ -104,4 +102,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Navbar;

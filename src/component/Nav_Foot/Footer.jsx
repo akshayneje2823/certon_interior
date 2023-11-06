@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -64,29 +64,29 @@ function Footer() {
               <h2 className="footer-widget-title">Pages</h2>
               <div className="footer-menu-links-wrap">
                 <Link to="style-guide.html" className="footer-link">
-                  Style Guide
+                  About Us
                 </Link>
-                <Link to="401.html" className="footer-link">
-                  Protected
+                <Link to="services" className="footer-link">
+                  Services 
                 </Link>
-                <Link to="licenses.html" className="footer-link">
-                  Licenses
+                {/* <Link to="licenses.html" className="footer-link">
+                  Blog
                 </Link>
                 <Link to="changelog.html" className="footer-link">
-                  Changelog
-                </Link>
-                <Link to="404.html" className="footer-link">
+                  Our Projects
+                </Link> */}
+                {/* <Link to="404.html" className="footer-link">
                   404
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="footer-widget-wrap">
               <h2 className="footer-widget-title">Explore</h2>
               <div className="footer-menu-links-wrap">
                 <Link to="services.html" className="footer-link">
-                  About Us
+                  Our Projects
                 </Link>
-                <Link to="blog.html" className="footer-link">
+                {/* <Link to="blog.html" className="footer-link">
                   Recent Blog
                 </Link>
                 <Link to="pricing-plan.html" className="footer-link">
@@ -94,7 +94,7 @@ function Footer() {
                 </Link>
                 <Link to="our-projects.html" className="footer-link">
                   Our Projects
-                </Link>
+                </Link> */}
                 <Link to="contact-us.html" className="footer-link">
                   Contact Us
                 </Link>
@@ -104,13 +104,15 @@ function Footer() {
               <h2 className="footer-widget-title">Contact</h2>
               <div className="footer-address-wrap">
                 <p className="footer-address">
-                  53, East Birchwood Ave. Brooklyn, New York 11201, USA.
+                  Plot No: 128-P2, Ground Floor, EPIP Zone Whitefield Rd, near
+                  Gingeeer Hotel, Whitefield, EPIP Zone, Bengaluru, Karnataka
+                  560066
                 </p>
                 <Link to="mailto:contact@interno.com" className="footer-link">
-                  contact@interno.com
+                  info@certoninterior.com
                 </Link>
                 <Link to="tel:(123)456-7890" className="footer-link">
-                  (123) 456 - 7890
+                  (+91) 9538111038
                 </Link>
               </div>
             </div>
@@ -118,9 +120,9 @@ function Footer() {
         </div>
         <div className="copyright-wrap">
           <div className="copyright-content">
-            Copyright © Interno | Designed by
-            <Link to="https://www.victorflow.com/">Victorflow</Link> Templates -
-            Powered by <Link to="https://webflow.com/">Webflow</Link>
+            Copyright © 2023 Certoninterior | All Right Reserved  
+            <Link to="https://www.victorflow.com/"> Certon</Link>
+            <Link to="https://webflow.com/">Technology</Link>
           </div>
         </div>
       </div>
@@ -128,4 +130,4 @@ function Footer() {
   );
 }
 
-export default Footer
+export default Footer;

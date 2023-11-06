@@ -1,10 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 function About() {
   return (
     <div>
       <body>
-     
         <div className="banner-title-area about-us-page wf-section">
           <div className="container w-container">
             <div className="banner-content-wrap">
@@ -23,8 +22,8 @@ function About() {
           <div className="container w-container">
             <div className="intro-blockquote-wrap">
               <blockquote>
-                Your Home should tell the story of who you are, and be a
-                Collection of what you Love.
+                Experience the difference with our interior design experts and
+                transform your living space into a unique masterpiece.{" "}
               </blockquote>
             </div>
           </div>
@@ -33,12 +32,17 @@ function About() {
           <div className="container w-container">
             <div className="w-layout-grid about-grid-wrap">
               <div className="about-content-wrap">
-                <h2 className="about-heading">Initial Design</h2>
+                <h2 className="about-heading">Who We Are?</h2>
                 <p className="about-content">
-                  Craft design with the mind of delivering clean <br />
-                  water and energy. Building iconic skyscrapers. Planning new
-                  cities. Restoring damaged building Connecting people and
-                  economies with roads.
+                  We are more than just interior designers; we are passionate
+                  storytellers who craft narratives through spaces. With a rich
+                  legacy of creativity and excellence, our design studio is
+                  dedicated to transforming your dreams into stunning realities.{" "}
+                  Our highly skilled designers, each with a unique design
+                  perspective, collaborate with you to curate spaces that
+                  reflect your individuality. With our experience and a keen eye
+                  for detail, we embark on every project with the goal of
+                  turning the ordinary into the extraordinary.
                 </p>
                 <Link to="services.html" className="button w-button">
                   Our Concept
@@ -61,11 +65,20 @@ function About() {
                 id="w-node-_0594dbd2-a01d-5eba-8907-55f79f074083-25594337"
                 className="about-content-wrap left-spacing"
               >
-                <h2 className="about-heading">The End Result</h2>
+                <h2 className="about-heading">Why Choose Us?</h2>
                 <p className="about-content">
-                  With more than 3,500 active clients, we work across the global
-                  economy. Our clients are remarkably diverse: large and small,
-                  private and public, for-profit and nonprofit.
+                  Choose us for your interior design needs, and you'll gain
+                  access to a team of seasoned designers who specialize in
+                  delivering excellence. We take pride in completing projects
+                  promptly, with a successful track record of over 100 completed
+                  projects. Our creative process begins with design concepts and
+                  mood boards, setting the tone for a personalized touch in
+                  every space. We assure you excellent finishing, guided by a
+                  budget-friendly approach, without compromising on quality. Our
+                  commitment to quality extends to thorough inspections and a
+                  warranty, with ongoing maintenance for a worry-free
+                  experience. With us, your ideal interior design comes to life
+                  seamlessly.{" "}
                 </p>
                 <Link to="services-single.html" className="button w-button">
                   Explore More
@@ -117,7 +130,7 @@ function About() {
                     <h2 className="member-name">Martin Devan</h2>
                     <div className="member-profession">Marketing Head</div>
                     <div className="member-social-wrap">
-                      <Link 
+                      <Link
                         to="https://www.facebook.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -127,7 +140,7 @@ function About() {
                           alt="Social Icon"
                         />
                       </Link>
-                      <Link 
+                      <Link
                         to="https://www.twitter.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -137,7 +150,7 @@ function About() {
                           alt="Social Icon"
                         />
                       </Link>
-                      <Link 
+                      <Link
                         to="https://www.linkedin.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -168,7 +181,7 @@ function About() {
                     <h2 className="member-name">Fiona Dourif</h2>
                     <div className="member-profession">Design Lead</div>
                     <div className="member-social-wrap">
-                      <Link 
+                      <Link
                         to="https://www.facebook.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -178,7 +191,7 @@ function About() {
                           alt="Social Icon"
                         />
                       </Link>
-                      <Link 
+                      <Link
                         to="https://www.twitter.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -188,7 +201,7 @@ function About() {
                           alt="Social Icon"
                         />
                       </Link>
-                      <Link 
+                      <Link
                         to="https://www.linkedin.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -219,7 +232,7 @@ function About() {
                     <h2 className="member-name">Andrew Howard</h2>
                     <div className="member-profession">Senior Manager</div>
                     <div className="member-social-wrap">
-                      <Link 
+                      <Link
                         to="https://www.facebook.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -229,7 +242,7 @@ function About() {
                           alt="Social Icon"
                         />
                       </Link>
-                      <Link 
+                      <Link
                         to="https://www.twitter.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -239,7 +252,7 @@ function About() {
                           alt="Social Icon"
                         />
                       </Link>
-                      <Link 
+                      <Link
                         to="https://www.linkedin.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -270,7 +283,7 @@ function About() {
                     <h2 className="member-name">Elizabeth Debic</h2>
                     <div className="member-profession">Senior Manager</div>
                     <div className="member-social-wrap">
-                      <Link 
+                      <Link
                         to="https://www.facebook.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -280,7 +293,7 @@ function About() {
                           alt="Social Icon"
                         />
                       </Link>
-                      <Link 
+                      <Link
                         to="https://www.twitter.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -290,7 +303,7 @@ function About() {
                           alt="Social Icon"
                         />
                       </Link>
-                      <Link 
+                      <Link
                         to="https://www.linkedin.com/"
                         className="professional-social-link w-inline-block"
                       >
@@ -406,11 +419,9 @@ function About() {
             </div>
           </div>
         </div>
-       
-      
       </body>
     </div>
   );
 }
 
-export default About
+export default About;

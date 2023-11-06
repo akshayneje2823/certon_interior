@@ -376,13 +376,15 @@ function Services() {
               <h2 className="footer-widget-title">Contact</h2>
               <div className="footer-address-wrap">
                 <p className="footer-address">
-                  53, East Birchwood Ave. Brooklyn, New York 11201, USA.
+                  Plot No: 128-P2, Ground Floor, EPIP Zone Whitefield Rd, near
+                  Gingeeer Hotel, Whitefield, EPIP Zone, Bengaluru, Karnataka
+                  560066
                 </p>
                 <Link to="mailto:contact@interno.com" className="footer-link">
-                  contact@interno.com
+                  info@certoninterior.com
                 </Link>
                 <Link to="tel:(123)456-7890" className="footer-link">
-                  (123) 456 - 7890
+                  (+91) 9538111038
                 </Link>
               </div>
             </div>
@@ -396,7 +398,6 @@ function Services() {
           </div>
         </div>
       </div>
-   
     </div>
   );
 }

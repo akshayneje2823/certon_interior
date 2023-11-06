@@ -35,7 +35,7 @@ function Contact() {
                     />
                   </div>
                   <a href="mailto:info@yourdomain.com" className="contact-link">
-                    info@yourdomain.com
+                    info@certoninterior.com
                   </a>
                 </div>
                 <div className="contact-detail-item">
@@ -47,7 +47,7 @@ function Contact() {
                     />
                   </div>
                   <a href="tel:+1(378)400-1234" className="contact-link">
-                    +1 (378) 400-1234
+                    (+91) 9538111038
                   </a>
                 </div>
                 <div className="contact-detail-item">
@@ -59,7 +59,7 @@ function Contact() {
                     />
                   </div>
                   <a href="http://www.interno.com/" className="contact-link">
-                    www.interno.com
+                    www.certoninterior.com
                   </a>
                 </div>
                 <div className="contact-social-wrap">
@@ -193,7 +193,6 @@ function Contact() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
