@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Accordation from "./components/Accordation";
 
 function Faq() {
   const iconStyle = {
@@ -46,7 +47,7 @@ function Faq() {
                 <div className="faq-accordion-wrap">
                   <div className="faq-accordion-content">
                     <h2 className="section-title">Service Related Questions</h2>
-                    <div
+                    {/* <div
                       data-hover="true"
                       data-delay="0"
                       data-w-id="4bc8c6da-5dc6-de19-7d96-e21f8abcbb22"
@@ -169,7 +170,8 @@ function Faq() {
                           Hawaii with select engagements on the east coast.
                         </div>
                       </nav>
-                    </div>
+                    </div> */}
+                    <Accordation />
                   </div>
                 </div>
                 <img
@@ -180,7 +182,7 @@ function Faq() {
                 https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5f2c8cdc9cec0161fe8d9_faq-image-2-p-500.jpeg 500w,
                 https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5f2c8cdc9cec0161fe8d9_faq-image-2.jpg        555w
               "
-                  alt="FAQ Image"
+                  alt="FAQ"
                   className="faq-image"
                 />
               </div>
@@ -191,132 +193,7 @@ function Faq() {
                 >
                   <div className="faq-accordion-content">
                     <h2 className="section-title">Project Related Questions</h2>
-                    <div
-                      data-hover="false"
-                      data-delay="0"
-                      data-w-id="13574361-17a9-36cd-94b7-b0c7b9d0cdf0"
-                      style={{ height: height ? "70px" : "200px" }}
-                      className="accordion-item w-dropdown"
-                    >
-                      <div className="accordion-toggle w-dropdown-toggle">
-                        <div
-                          style={iconStyle}
-                          className="accordion-icon w-icon-dropdown-toggle"
-                        ></div>
-                        <div className="dropdown-question">
-                          Hiring an interior designer for work?
-                        </div>
-                      </div>
-                      <nav className="accordion-list w-dropdown-list">
-                        <div className="faq-content-wrap">
-                          All designers work differently. At Interno Interiors,
-                          first a short questionnaire and follow-up phone
-                          conversation will help us evaluate your project, and
-                          if we may be of help.
-                        </div>
-                      </nav>
-                    </div>
-                    <div
-                      data-hover="false"
-                      data-delay="0"
-                      data-w-id="13574361-17a9-36cd-94b7-b0c7b9d0cdf8"
-                      style={{ height: height ? "70px" : "200px" }}
-                      className="accordion-item w-dropdown"
-                    >
-                      <div className="accordion-toggle w-dropdown-toggle">
-                        <div
-                          style={iconStyle}
-                          className="accordion-icon w-icon-dropdown-toggle"
-                        ></div>
-                        <div className="dropdown-question">
-                          How do you charge per square feet?
-                        </div>
-                      </div>
-                      <nav className="accordion-list w-dropdown-list">
-                        <div className="faq-content-wrap">
-                          We maintain competitive design fees. There are a few
-                          ways that we charge but our design fee will typically
-                          have a combination of a fixed fee and hourly
-                          estimates.
-                        </div>
-                      </nav>
-                    </div>
-                    <div
-                      data-hover="false"
-                      data-delay="0"
-                      data-w-id="13574361-17a9-36cd-94b7-b0c7b9d0ce00"
-                      style={{ height: height ? "70px" : "220px" }}
-                      className="accordion-item w-dropdown"
-                    >
-                      <div className="accordion-toggle w-dropdown-toggle">
-                        <div
-                          style={iconStyle}
-                          className="accordion-icon w-icon-dropdown-toggle"
-                        ></div>
-                        <div className="dropdown-question">
-                          What will our project cost?
-                        </div>
-                      </div>
-                      <nav className="accordion-list w-dropdown-list">
-                        <div className="faq-content-wrap">
-                          It depends on the level you wish to take your project.
-                          If you have a specific design fee budget in mind, we
-                          are more than happy to prepare a proposal, stating
-                          what we can offer, keeping within your budget.
-                        </div>
-                      </nav>
-                    </div>
-                    <div
-                      data-hover="false"
-                      data-delay="0"
-                      data-w-id="13574361-17a9-36cd-94b7-b0c7b9d0ce08"
-                      style={{ height: height ? "70px" : "200px" }}
-                      className="accordion-item w-dropdown"
-                    >
-                      <div className="accordion-toggle w-dropdown-toggle">
-                        <div
-                          style={iconStyle}
-                          className="accordion-icon w-icon-dropdown-toggle"
-                        ></div>
-                        <div className="dropdown-question">
-                          How do we get started, what is next?
-                        </div>
-                      </div>
-                      <nav className="accordion-list w-dropdown-list">
-                        <div className="faq-content-wrap">
-                          Before beginning work, you go through a detailed
-                          questionnaire that helps us get to know you better. We
-                          take a design fee retainer that is applied to your
-                          final invoice.
-                        </div>
-                      </nav>
-                    </div>
-                    <div
-                      data-hover="false"
-                      data-delay="0"
-                      data-w-id="13574361-17a9-36cd-94b7-b0c7b9d0ce10"
-                      style={{ height: height ? "70px" : "200px" }}
-                      className="accordion-item w-dropdown"
-                      onClick={() => {
-                        changeHeight();
-                      }}
-                    >
-                      <div className="accordion-toggle w-dropdown-toggle">
-                        <div
-                          style={iconStyle}
-                          className="accordion-icon w-icon-dropdown-toggle"
-                        ></div>
-                        <div className="dropdown-question">
-                          What cities do you work in?fd
-                        </div>
-                      </div>
-                      <nav style={{ display: "block" }}>
-                        <div style={{ display: "block" }}>
-                          Interno Interiors works primarily in Los Angeles and
-                          Hawaii with select engagements on the east coast.
-                        </div>
-                      </nav>
-                    </div>
+                    <Accordation />
                   </div>
                 </div>
                 <img
@@ -327,14 +204,13 @@ function Faq() {
                 https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5f2c885db57eb2ccdb983_faq-image-1-p-500.jpeg 500w,
                 https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5f2c885db57eb2ccdb983_faq-image-1.jpg        555w
               "
-                  alt="FAQ Image"
+                  alt="FAQ"
                   className="faq-image"
                 />
               </div>
             </div>
           </div>
         </div>
-     
       </body>
     </div>
   );

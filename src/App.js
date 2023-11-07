@@ -48,7 +48,7 @@ function App() {
           <Route path="/blog3" element={<Blog3 />} />
           <Route path="/blog4" element={<Blog4 />} />
           <Route path='/blog5' element={<Blog5/>} />
-          <Route path='/blog5' element={<Blog6 />} />
+          <Route path='/blog6' element={<Blog6 />} />
         </Routes>
     <Footer/>
     </div>
